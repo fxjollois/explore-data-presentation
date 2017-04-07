@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+body {
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
 .remark-slide-content h1 { font-size: 3em; }
 .remark-slide-content h2 { font-size: 2em; }
 .remark-slide-content h3 { font-size: 1.25em; }
+
 .footnote {
 	position: absolute;
 	bottom: 3em;
