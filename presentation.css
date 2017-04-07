@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+slab');
 body {
 	font-family: 'Roboto', sans-serif;
 }
 h1, h2, h3 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto slab', serif;
 }
 
 .remark-slide-content h1 { font-size: 3em; }
