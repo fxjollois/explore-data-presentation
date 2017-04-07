@@ -111,9 +111,9 @@ Une démonstration ?
 
 --
 
-# [Lien vers l'application](http://193.51.82.116:3838/explore-data/) .red[*]
+# [Lien vers l'application](http://193.51.82.104:2223/explore-data/) .red[*]
 
-.footnote[.red[*] Serveur hébergé dans les locaux de l'Université Paris Descartes]
+.footnote[.red[*] serveur hébergé dans les locaux de l'Université Paris Descartes]
 
 ---
 
