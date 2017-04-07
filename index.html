@@ -11,7 +11,12 @@
 		<script src="remark.min.js"></script>
 		<script>
 			var slideshow = remark.create({
-				sourceUrl: 'presentation.md'
+				sourceUrl: 'presentation.md',
+				countIncrementalSlides: false,
+				slideNumberFormat: function (current, total) {
+					p = Math.round((current - 1) / (total - 1) * 100);
+					return '<div id="myProgress"><div id="myBar" style="width: ' + p + '%"></div></div>'
+				}
 			});
 		</script>
 	</body>

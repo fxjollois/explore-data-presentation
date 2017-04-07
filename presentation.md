@@ -1,8 +1,10 @@
-class: middle, center, inverse
+class: middle, center, inverse, title
 
 # `explore-data`
 
 ## Un outil d'enseignement de la statistique descriptive
+
+François-Xavier Jollois
 
 .footnote[lien vers le [projet Github](http://github.com/fxjollois/explore-data)]
 
@@ -16,7 +18,7 @@ class: middle, center, inverse
 
 - Application **web** dédiée à l'enseignement
 
-- Développée en **interne**
+- Développée en **interne**, pour correspondre aux besoins
 
 - Utilisée pour les TPs en **1ère année** de DUT Statistique et Informatique Décisionnelle (**STID**)
 
@@ -34,7 +36,7 @@ class: middle, center, inverse
 
 ---
 
-# Besoin
+# Besoins
 
 --
 
@@ -60,26 +62,33 @@ class: middle, center, inverse
 
 ---
 
-# Solution
+class: middle, center, inverse
 
-> Une application **web** et **dédiée**
+La solution ?
 
 --
 
-### Et dans le détail
+# Une application **web** et **dédiée**
+
+---
+
+# Et dans le détail
 
 - Utilisation du langage [`R`](https://www.r-project.org/) et de la librairie 
 [`shiny`](https://shiny.rstudio.com/)
 	- Simplicité de programmation
 	- Utilisation de la librairie [`ggplot2`](http://ggplot2.org/) pour les 
-	graphiques
+	graphiques .red[*]
 
 - Projet [github](http://github.com/) pour une réutilisation possible par tous
 	- sous licence [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.fr.html)
 
-- Hébergement sur un serveur dédié dans les locaux de l'Université
+- Hébergement sur un serveur dédié dans les locaux de l'Université Paris Descartes
 	- plateforme de serveurs virtuels basé sur *OpenNebula*
 	- serveur : 8go RAM, 8 coeurs
+
+.footnote[.red[*] ainsi que les librairies [`reshape`](https://github.com/hadley/reshape) 
+et [`scales`](https://github.com/hadley/scales)]
 
 ---
 
@@ -98,9 +107,11 @@ a faire
 
 class: middle, center, inverse
 
-# Démonstration
+Une démonstration ?
 
-[Lien vers l'application](http://193.51.82.116:3838/explore-data/) .red[*]
+--
+
+# [Lien vers l'application](http://193.51.82.116:3838/explore-data/) .red[*]
 
 .footnote[.red[*] Serveur hébergé dans les locaux de l'Université Paris Descartes]
 
