@@ -40,11 +40,11 @@ a {
 
 #myProgress {
 	width: 100px;
-	height: 20px;
+	height: 10px;
 	background-color: DarkSlateGray;
 }
 #myBar {
-	height: 20px;
+	height: 10px;
 	background-color: Teal;
 }
 .inverse #myProgress {
